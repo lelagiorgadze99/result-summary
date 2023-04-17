@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+/* font-family: 'Hanken Grotesk', sans-serif; */
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result{
+    padding: 2.4rem 5.7rem 4rem 5.8rem;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+h1{
+    color: #CAC9FF;
+    font-size: 1.8rem;
+    line-height: 2.345rem;
+    font-weight: 700;
+}
+h2{
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    line-height: 3.127rem;
+    font-weight: 700;
+}
+.number{
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 3.9rem 2.2rem 3.8rem;
+    border-radius: 50%;
+}
+.number1{
+    color: #FFFFFF;
+    font-size: 5.6rem;
+    line-height: 7.2rem;
+    font-weight: 800;
+}
+.number2{
+    color: #CAC9FF;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.info{
+    text-align: center;
+}
+p{
+    margin-top: 0.8rem;
+    color: #CAC9FF;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.summary{
+    background-color: white;
+    padding: 2.4rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+h3{
+    color: #303B59;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+}
+h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.reaction, .memory, .verbal, .visual{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+    padding: 1.7rem 1.6rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    border-radius: 1.2rem;
+}
+.reaction{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.verbal{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.visual{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.red{
+    color: #FF5555;
+}
+.yellow{
+    color: #FFB21E;
+}
+.green{
+    color: #00BB8F;
+}
+.blue{
+    color: #1125D6;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.gap{
+    gap: 1.6rem;
+}
+.span-number{
+    display: flex;
+    gap: 0.8rem;
+}
+.span-number{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #303B59;
+}
+.span-number > :nth-child(2){
+    opacity: 0.5;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+}
+button{
+    border: none;
+    background-color: #303B59;
+    font-size: 1.8em;
+    line-height: 2.4rem;
+    color: white;
+    padding: 1.7rem 12rem;
+    border-radius: 12.8rem;
+    font-weight: 700;
+    font-family: 'Hanken Grotesk', sans-serif;
+    cursor: pointer;
+}
+@media (min-width: 1440px){
+    body{
+        background: #ECF2FF;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .container{
+        background-color: white;
+        width: 73.6rem;
+        display: flex;  
+        box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);  
+        border-radius: 3.2rem; 
+    }
+    .result{
+        padding: 3.8rem 5.4rem 5.6rem 5.4rem;
+        border-radius: 3.2rem;
+    }
+    h1{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .number{
+        padding: 5.5rem 6rem 4.6rem 5.9rem;
+    }
+    .number1{
+        font-size: 7.2rem;
+    }
+    .number2{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-top: 4px;
+    }
+    h2{
+        font-size: 3.2rem;
+        line-height: 4.1rem;
+    }
+    h4{
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    .flex{
+        gap: 0.8rem;
+    }
+    .summary{
+        padding: 3.8rem 4rem 3.9rem 4rem;
+        border-radius: 3.2rem;
+    }
+    .span-number{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    button{
+        margin-bottom: 2.8rem;
+        padding: 1.6rem 10.6rem;
+    }
+    button :hover{
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    }
+}
